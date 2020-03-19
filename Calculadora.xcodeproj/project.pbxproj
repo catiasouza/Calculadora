@@ -16,6 +16,7 @@
 		54918550242240C2004A52E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5491854E242240C2004A52E6 /* LaunchScreen.storyboard */; };
 		5491855B242240C2004A52E6 /* CalculadoraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5491855A242240C2004A52E6 /* CalculadoraTests.swift */; };
 		54918566242240C2004A52E6 /* CalculadoraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54918565242240C2004A52E6 /* CalculadoraUITests.swift */; };
+		549185792422AAC8004A52E6 /* CalculadoraLogica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549185782422AAC8004A52E6 /* CalculadoraLogica.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		54918561242240C2004A52E6 /* CalculadoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculadoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54918565242240C2004A52E6 /* CalculadoraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadoraUITests.swift; sourceTree = "<group>"; };
 		54918567242240C2004A52E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		549185782422AAC8004A52E6 /* CalculadoraLogica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculadoraLogica.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +105,9 @@
 			children = (
 				54918540242240BF004A52E6 /* AppDelegate.swift */,
 				54918542242240BF004A52E6 /* SceneDelegate.swift */,
-				54918544242240BF004A52E6 /* ViewController.swift */,
-				54918546242240BF004A52E6 /* Main.storyboard */,
+				549185772422AA7E004A52E6 /* Controller */,
+				549185762422AA5C004A52E6 /* View */,
+				549185752422AA47004A52E6 /* Model */,
 				5491854C242240C2004A52E6 /* Assets.xcassets */,
 				5491854E242240C2004A52E6 /* LaunchScreen.storyboard */,
 				54918551242240C2004A52E6 /* Info.plist */,
@@ -129,6 +132,30 @@
 				54918567242240C2004A52E6 /* Info.plist */,
 			);
 			path = CalculadoraUITests;
+			sourceTree = "<group>";
+		};
+		549185752422AA47004A52E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				549185782422AAC8004A52E6 /* CalculadoraLogica.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		549185762422AA5C004A52E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				54918546242240BF004A52E6 /* Main.storyboard */,
+				54918544242240BF004A52E6 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		549185772422AA7E004A52E6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +292,7 @@
 				54918545242240BF004A52E6 /* ViewController.swift in Sources */,
 				54918541242240BF004A52E6 /* AppDelegate.swift in Sources */,
 				54918543242240BF004A52E6 /* SceneDelegate.swift in Sources */,
+				549185792422AAC8004A52E6 /* CalculadoraLogica.swift in Sources */,
 				5491854B242240BF004A52E6 /* Calculadora.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
